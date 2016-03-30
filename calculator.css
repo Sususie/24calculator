@@ -1,0 +1,81 @@
+body {
+	background-color:#FFCCCC;
+	font-family:"Times New Roman";
+}
+h3{
+	margin:2% 2%;
+	font-size:5em;
+	color:#663366;
+}
+
+#n1,#n2,#n3,#n4{
+	width:80px;
+	height:100px;
+	font-size:300%;
+	background:white;
+	border:solid 1px #000000;
+	border-style:solid;
+	border-weight:5px;
+	padding:20px;
+}
+#box{
+	border:solid 5px;
+	border-color:#663366;
+	width:800px;
+	height:150px;
+	margin-left:3%;
+}
+#formula {
+	display:block;
+	padding:25px 50px 25px 50px;
+	color:#996699;
+	width:700px;
+	height:100px;
+	text-align:center;
+	font-size:100px;
+}
+
+#number button{
+	cursor:hand;
+	font-size:75px;
+	height:150px;
+	width:150px;
+	margin:15px;
+	background-color:#FF9999;
+	color:#996699;
+	border-style:none;
+}
+
+#operator button{
+	cursor:hand;
+	font-size:45px;
+	height:60px;
+	width:60px;
+	margin:15px;
+	background-color:#FF9999;
+	color:#996699;
+	border-style:none;
+}
+#number{
+	margin-left:3%;
+	margin-top:0;
+}
+#operator{
+	margin-left:3%;
+}
+#formulae {
+	display:none;
+	padding:25px 50px 25px 50px;
+	color:#aa3388;
+	width:700px;
+	height:100px;
+	text-align:center;
+	font-size:100px;
+}
+h4{
+	margin-left:50%;
+	color:#663366;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+

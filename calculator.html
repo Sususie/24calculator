@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link href="calculator.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h3>Calculate 24</h3>
+		<h4>Time left:
+		<span id="countdown">30</span></h4>
+		<div id="number">
+		<button id="n1" onclick=addN(a)>&nbsp;</button>
+		<button id="n2"onclick=addN(b)>&nbsp;</button>
+		<button id="n3"onclick=addN(c)>&nbsp;</button>
+		<button id="n4"onclick=addN(d)>&nbsp;</button>
+	</div>
+	<div id="operator">
+		<button onclick=add()>+</button>
+		<button onclick=minus()>-</button>
+		<button onclick=mult()>&#215</button>
+		<button onclick=divd()>&#247</button>
+		<button onclick=lbr()>(</button>
+		<button onclick=rbr()>)</button>
+		<button onclick=bkspc()>&#8592</button>
+		<button onclick=equ()>=</button>
+		<input type=button value="Find Answers" onclick=cal()>
+	</div>
+	<div id="box">
+	<div id="formula" ></div>
+	</div>
+	<p id="showit" style="color:#aa3388;width:300;height:150;border:solid 1px #008800;">&nbsp;</p>
+	<div id="formulae">
+	</div>
+
+
+
+	<script src="calculator.js" type="application/javascript">
+
+	</script>
+
+	</body>
+
+</html>
